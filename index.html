@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <!----BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Calculadora IMC</title>
+</head>
+<body class="corpo" background="img/fundo3.jpg">
+<div class="container">
+    <div class="topo">
+        <h1>Calculadora IMC</h1>
+
+                <main class="main">
+
+                <div class="col-12 col-md-6 order-md-2 order-1">
+                    <form action="">
+                        <div class="sobre-imc">
+                            <div class="row">
+                                <div id="texto-imc" >
+                                    <h4>O que é IMC</h4>
+                                    <p class="texto-imc">IMC é a sigla para Índice de Massa Corporal, que é um cálculo que serve para avaliar se
+                                        a pessoa está dentro do seu peso ideal em relação à altura. Assim, de acordo com o valor do resultado de
+                                        IMC, a pessoa pode saber se está dentro do peso ideal, acima ou abaixo do peso desejado.</p>
+                                </div>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Para começar digite seu nome:</label>
+                            <input type="name" class="form-control" id="nome" aria-describedby="campoNome" placeholder="Nome" aria-label="Nome">
+                        </div>
+                        <div class="row">
+
+                            <div class="col">
+                                <label for="peso" class="form-label">Digite seu peso: <span class="exemplo">(Exemplo: 80)</span> </label>
+                                <input id="peso" type="number" class="form-control" placeholder="Peso" aria-label="Peso">
+                            </div>
+                            <div class="col">
+                                <label for="altura" class="form-label">Digite sua altura: <span class="exemplo">(Exemplo: 1,80)</span> </label>
+
+                                <input id="altura" type="number" class="form-control" placeholder="Altura" aria-label="Altura">
+                            </div>
+                            <br>
+                            <div class="col-12">
+                                <br>
+                                <button id="botao" type="button" class="btn btn-primary">Calcular</button>
+                            </div>
+                            <div>
+                                <br>
+                                <div id="resultado">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+
+
+
+
+    </div>
+
+</div>
+</main>
+<div class="sobre-imc">
+
+<script src="script.js"></script>
+</body>
+</html>
