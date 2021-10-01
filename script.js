@@ -16,7 +16,7 @@ function imc(){
         if (valorIMC <18.5){
             classificacao = 'abaixo do peso.'
         }else if (valorIMC <25){
-            classificacao = 'com peso ideal. Parabéns'
+            classificacao = 'com peso ideal. Parabéns!'
         }else if (valorIMC <30){
             classificacao = 'levemente acima do peso'
         }else if (valorIMC <35){
@@ -30,12 +30,12 @@ function imc(){
 
 
         resultado.textContent = `
-            Olá ${nome}! Com ${peso} e ${altura},
-            seu IMC é ${valorIMC} e você está ${classificacao}`
+            Olá ${nome}! Com ${peso} kg e ${altura} m,
+            seu IMC é ${valorIMC}. Atualmente você está ${classificacao}`;
 
 
     }else{
-        resultado.textContent = 'Preencha todos os campos'
+        resultado.textContent = 'Preencha todos os campos para calcular seu IMC.'
     }
 
 
