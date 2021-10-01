@@ -31,7 +31,7 @@ function imc(){
 
         resultado.textContent = `
             Olá ${nome}! Com ${peso} kg e ${altura} m,
-            seu IMC é ${valorIMC}. Atualmente você está ${classificacao}`;
+            seu IMC é ${valorIMC}. Atualmente você está ${classificacao}`
 
 
     }else{
